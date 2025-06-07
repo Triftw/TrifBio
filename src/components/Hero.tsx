@@ -3,7 +3,7 @@ import { technologies } from '../data/technologies';
 
 const Hero = () => {
   return (
-    <section id="about" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
+    <section id="about" className="min-h-screen flex items-center justify-center bg-linear-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         {/* Main Hero Section */}
         <motion.div
@@ -62,7 +62,7 @@ const Hero = () => {
             {technologies.map((tech) => (
               <span
                 key={tech.name}
-                className={`px-4 py-2 ${tech.brandColor.bg} ${tech.brandColor.text} rounded-full shadow-sm hover:shadow-md transition-all duration-300`}
+                className={`px-4 py-2 ${tech.brandColor.bg} ${tech.brandColor.text} rounded-full shadow-xs hover:shadow-md transition-all duration-300`}
               >
                 {tech.name}
               </span>

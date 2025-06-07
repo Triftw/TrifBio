@@ -50,7 +50,7 @@ const WorkTimeline: React.FC = () => {
                           {exp.technologies.map((tech, techIndex) => (
                             <span
                               key={techIndex}
-                              className="px-3 py-1 text-sm bg-white dark:bg-gray-700 rounded-full shadow-sm dark:text-gray-300"
+                              className="px-3 py-1 text-sm bg-white dark:bg-gray-700 rounded-full shadow-xs dark:text-gray-300"
                             >
                               {tech}
                             </span>

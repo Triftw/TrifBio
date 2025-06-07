@@ -67,7 +67,7 @@ const Industries = () => {
                       {industry.technologies.map((tech) => (
                         <span
                           key={tech}
-                          className="px-3 py-1 text-sm bg-white dark:bg-gray-700 rounded-full shadow-sm"
+                          className="px-3 py-1 text-sm bg-white dark:bg-gray-700 rounded-full shadow-xs"
                         >
                           {tech}
                         </span>
