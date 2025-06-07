@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://iam.ioritro.com/sitemap.xml
